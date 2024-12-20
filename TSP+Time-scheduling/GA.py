@@ -139,7 +139,7 @@ def genetic_algorithm(locations, time_windows, num_generations=100, population_s
 
 # Step 9: Run the GA with the test file
 if __name__ == "__main__":
-    filename = "smaller.txt"
+    filename = "test_customers.txt"
     locations, time_windows = read_test_data(filename)
 
     best_route, best_score, elapsed_time = genetic_algorithm(locations, time_windows)

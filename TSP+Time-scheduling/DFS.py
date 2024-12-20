@@ -85,7 +85,7 @@ def dfs(locations, time_windows):
 
 # Step 5: Run the DFS with Execution Time Measurement
 if __name__ == "__main__":
-    filename = "smaller.txt"
+    filename = "test_customers.txt"
     locations, time_windows = read_test_data(filename)
 
     # Measure the execution time
